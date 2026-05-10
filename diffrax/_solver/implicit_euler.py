@@ -1,10 +1,10 @@
 from collections.abc import Callable
 from typing import ClassVar, TypeAlias
 
-import optimistix as optx
-from equinox.internal import ω
 import jax.numpy as jnp
 import jax.tree_util as jtu
+import optimistix as optx
+from equinox.internal import ω
 
 from .._custom_types import Args, BoolScalarLike, DenseInfo, RealScalarLike, VF, Y
 from .._heuristics import is_sde
